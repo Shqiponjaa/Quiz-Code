@@ -97,7 +97,7 @@ function startQuiz(){
       }, 1000);
     quizBody.style.display = "block";
 }
-// This function is the end page screen that displays your score after either completeing the quiz or upon timer run out
+//function that displays your score after  the quiz is completed or when timer is run out
 function showScore(){
     quizBody.style.display = "none"
     gameoverDiv.style.display = "flex";
@@ -134,7 +134,7 @@ submitScoreBtn.addEventListener("click", function highscore(){
     
 });
 
-// This function clears the list for the high scores and generates a new high score list from local storage
+// This function clears the list for the high scores 
 function generateHighscores(){
     highscoreDisplayName.innerHTML = "";
     highscoreDisplayScore.innerHTML = "";
@@ -160,7 +160,7 @@ function showHighscore(){
     generateHighscores();
 }
 
-// This function clears the local storage of the high scores as well as clearing the text from the high score board
+// This function clears the local storage as well as  clearing the text from the high score board
 function clearScore(){
     window.localStorage.clear();
     highscoreDisplayName.textContent = "";
