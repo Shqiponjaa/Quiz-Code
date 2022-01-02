@@ -37,20 +37,20 @@ var quizQuestions = [{
     correctAnswer: "B"},
     {
         question: "Question 3: What method returns an array of a given object's own enumerable string-keyed property?",
-        choicesA:"A. Object.keys()",
+        choiceA:"A. Object.keys()",
         choiceB:"B. Object.value)", 
         choiceC:"C. Object.entries)",
         choiceD:"D. Object.properties()",
         correctAnswer: "C"},
         {
-        question: "What HTML tags are JavaScript code wrapped in?",
+        question: "Question 4: What HTML tags are JavaScript code wrapped in?",
         choiceA: "A. &lt;div&gt;",
         choiceB: "B. &lt;link&gt;",
         choiceC: "C. &lt;head&gt;",
         choiceD: "D. &lt;script&gt;",
         correctAnswer: "D"},
         {
-        question: "When is localStorage data cleared?",
+        question: "Question 5: When is localStorage data cleared?",
         choiceA: "A. No expiration time",
         choiceB: "B. On page reload",
         choiceC: "C. On browser close",
@@ -160,7 +160,7 @@ function showHighscore(){
     generateHighscores();
 }
 
-// This function clears the local storage as well as  clearing the text from the high score board
+// This function clears the local storage as well as clearing the text from the high score board
 function clearScore(){
     window.localStorage.clear();
     highscoreDisplayName.textContent = "";
