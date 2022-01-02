@@ -6,7 +6,7 @@
         padding-bottom: 3px;
         color: white;
         text-shadow: 1.5px 1px 3px rgb(151, 135, 135);
-        list-style-type:lower-roman;
+        list-style-type:decimal;
     }
     
     p{
@@ -88,13 +88,8 @@
     }
     
     #high-scorePage{
-        display: none;
-        width: 50%;
-        border: solid;
-        border-color: silver;
-        border-bottom-style: groove;
-        padding-bottom: .3rem;
-        background: rgb(151, 156, 163);
+        font-style: italic;
+        color: #4D5159;
     }
     
     #highscore-header{
