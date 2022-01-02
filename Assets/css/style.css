@@ -6,7 +6,7 @@
         padding-bottom: 3px;
         color: white;
         text-shadow: 1.5px 1px 3px rgb(151, 135, 135);
-        list-style-type:decimal;
+        list-style-type:lower-roman;
     }
     
     p{
@@ -24,9 +24,7 @@
     input{
         text-align: center;
     }
-  
-
-
+    
     .container {
         width: 100vw;
         height: 100vh;
@@ -38,29 +36,23 @@
       }
     
       button {
-            display: grid;
-            font-family: sans-serif;
-            background-color: #3a747c;
-            border-radius: 10px;
-            border: 3px double #cccccc;
-            color: #fff6f6;
-            text-align: center;
-            font-size: 15px;
-            padding: 20px;
-            width: 200px;
-            margin-top: 3px;
-          }
-    
+        display: inline-block;
+        font-family: sans-serif;
+        background-color: #5e6df1;
+        border-radius: 10px;
+        border: 3px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 15px;
+        padding: 20px;
+        width: 200px;
+        margin-top: 3px;
       }
-   
+    
       button:hover{
-          box-shadow: 4px 3px 6px #538f78;
+          box-shadow: 4px 3px 6px #4450bd;
       }
     
-      .questions{
-          display: list-item;
-      }
-
     #startpage{
         display: flex;
         flex-direction: column;
@@ -98,14 +90,11 @@
         display: none;
         width: 50%;
         border: solid;
-        border-color: rgb(102, 42, 42);
+        border-color: silver;
         border-bottom-style: groove;
         padding-bottom: .3rem;
-        background: rgb(2, 50, 117)
-        
+        background: rgb(151, 156, 163);
     }
-        
-    
     
     #highscore-header{
         display:flex;
