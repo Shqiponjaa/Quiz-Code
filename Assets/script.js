@@ -27,35 +27,35 @@ var quizQuestions = [{
     choiceB: "JavaScript variable names should not start with a numeral (0-9)",
     choiceC:"Both of the above",
     choiceD:"None of the above",
-    correctAnswer: "c"},
+    correctAnswer: "C"},
    {
     question: "Question 2: What method copies enumerable and own properties from a source object to a target object?",
     choiceA:"Object.map()",
     choiceB:"Object.assign()",
     choiceC :"Object.copy()", 
     choiceD:"Object.duplicate()",
-    correctAnswer: "b"},
+    correctAnswer: "B"},
     {
         question: "Question 3: What method returns an array of a given object's own enumerable string-keyed property?",
         choicesA:"Object.keys()",
         choiceB:"Object.value)", 
         choiceC:"Object.entries)",
         choiceD:"Object.properties()",
-        correctAnswer: "c"},
+        correctAnswer: "C"},
         {
         question: "What HTML tags are JavaScript code wrapped in?",
         choiceA: "&lt;div&gt;",
         choiceB: "&lt;link&gt;",
         choiceC: "&lt;head&gt;",
         choiceD: "&lt;script&gt;",
-        correctAnswer: "d"},
+        correctAnswer: "D"},
         {
         question: "When is localStorage data cleared?",
         choiceA: "No expiration time",
         choiceB: "On page reload",
         choiceC: "On browser close",
         choiceD: "On computer restart",
-        correctAnswer: "a"},  
+        correctAnswer: "A"},  
     ];
     
 
