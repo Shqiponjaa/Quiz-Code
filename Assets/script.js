@@ -23,10 +23,10 @@ var buttonD = document.getElementById("d");
 var quizQuestions = [{
     
     question: "Question 1: Which of the following is true about variable naming conventions in JavaScript?",
-    choiceA:"You should not use any of the JavaScript reserved keyword as variable name", 
-    choiceB: "JavaScript variable names should not start with a numeral (0-9)",
-    choiceC:"Both of the above",
-    choiceD:"None of the above",
+    choiceA:"A. You should not use any of the JavaScript reserved keyword as variable name", 
+    choiceB: "B. JavaScript variable names should not start with a numeral (0-9)",
+    choiceC:"C. Both of the above",
+    choiceD:"D. None of the above",
     correctAnswer: "C"},
    {
     question: "Question 2: What method copies enumerable and own properties from a source object to a target object?",
