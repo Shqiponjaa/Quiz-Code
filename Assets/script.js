@@ -30,31 +30,31 @@ var quizQuestions = [{
     correctAnswer: "C"},
    {
     question: "Question 2: What method copies enumerable and own properties from a source object to a target object?",
-    choiceA:"Object.map()",
-    choiceB:"Object.assign()",
-    choiceC :"Object.copy()", 
-    choiceD:"Object.duplicate()",
+    choiceA:"A. Object.map()",
+    choiceB:"B.  Object.assign()",
+    choiceC :"C. Object.copy()", 
+    choiceD:"D. Object.duplicate()",
     correctAnswer: "B"},
     {
         question: "Question 3: What method returns an array of a given object's own enumerable string-keyed property?",
-        choicesA:"Object.keys()",
-        choiceB:"Object.value)", 
-        choiceC:"Object.entries)",
-        choiceD:"Object.properties()",
+        choicesA:"A. Object.keys()",
+        choiceB:"B. Object.value)", 
+        choiceC:"C. Object.entries)",
+        choiceD:"D. Object.properties()",
         correctAnswer: "C"},
         {
         question: "What HTML tags are JavaScript code wrapped in?",
-        choiceA: "&lt;div&gt;",
-        choiceB: "&lt;link&gt;",
-        choiceC: "&lt;head&gt;",
-        choiceD: "&lt;script&gt;",
+        choiceA: "A. &lt;div&gt;",
+        choiceB: "B. &lt;link&gt;",
+        choiceC: "C. &lt;head&gt;",
+        choiceD: "D. &lt;script&gt;",
         correctAnswer: "D"},
         {
         question: "When is localStorage data cleared?",
-        choiceA: "No expiration time",
-        choiceB: "On page reload",
-        choiceC: "On browser close",
-        choiceD: "On computer restart",
+        choiceA: "A. No expiration time",
+        choiceB: "B. On page reload",
+        choiceC: "C. On browser close",
+        choiceD: "D. On computer restart",
         correctAnswer: "A"},  
     ];
     
@@ -80,7 +80,6 @@ function generateQuizQuestion(){
     buttonD.innerHTML = currentQuestion.choiceD;
 };
 
-// Start Quiz function starts the TimeRanges, hides the start button, and displays the first quiz question.
 function startQuiz(){
     gameoverDiv.style.display = "none";
     startQuizDiv.style.display = "none";
