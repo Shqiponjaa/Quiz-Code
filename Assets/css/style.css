@@ -47,12 +47,12 @@
         text-align: center;
         font-size: 15px;
         padding: 20px;
-        width: 200px;
+        width: 375px;
         margin-top: 3px;
       }
     
       button:hover{
-          box-shadow: 4px 3px 6px #4450bd;
+          box-shadow: 4px 3px 6px #538f78;
       }
     
     #startpage{
