@@ -8,3 +8,5 @@ When "start" button is clicked a timer starts and a question is presented. After
  BUILT WITH: Visual Studio Code 
  Using: HTML CSS JavaScript
 
+Deployed linik: https://shqiponjaa.github.io/Quiz-Code/
+Github : https://github.com/Shqiponjaa/Quiz-Code.git
