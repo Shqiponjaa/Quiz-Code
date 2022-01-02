@@ -88,9 +88,17 @@
     }
     
     #high-scorePage{
-        font-style: italic;
-        color: #4D5159;
+        display: none;
+        width: 50%;
+        border: solid;
+        border-color: rgb(102, 42, 42);
+        border-bottom-style: groove;
+        padding-bottom: .3rem;
+        background: rgb(2, 50, 117)
+        
     }
+        
+    
     
     #highscore-header{
         display:flex;
