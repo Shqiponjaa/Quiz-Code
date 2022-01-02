@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz Challenge</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div id="startpage">
+            <h2>This quiz will test your knowledge</h2>
+            <h2>of JavaScript concepts</h2>
+        <button id="startbtn">Start Code Quiz</button>
+        <button id="startPageHighscore" onclick="showHighscore()">High Scores</button>
+        </div>
+
+        <div id="quiz">
+            <div id="timer">Time left: </div>
+                <div id="questions"><p>Questions Placeholder</p></div>
+                    <button id="a" onclick="checkAnswer('A')">A</button>
+                    <button id="b" onclick="checkAnswer('B')">B</button>
+                    <button id="c" onclick="checkAnswer('C')">C</button>
+                    <button id="d" onclick="checkAnswer('D')">D</button>
+                <div id="result"></div>
+        </div>
+       
