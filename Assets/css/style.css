@@ -6,7 +6,7 @@
         padding-bottom: 3px;
         color: white;
         text-shadow: 1.5px 1px 3px rgb(151, 135, 135);
-        list-style-type:lower-roman;
+        list-style-type:decimal;
     }
     
     p{
@@ -101,7 +101,7 @@
         justify-content: space-around;
         border-bottom-style: outset;
         margin-bottom: .5rem;
-        background-color: #737ee6;
+        background-color: #93aec0;
         color: #998b8b;
         font-family: sans-serif;
     }
